@@ -1,5 +1,6 @@
 bases = ['life', 'earth', 'water', 'fire', 'air', 'light', 'dark', 'psychic',
          'arcane']
+
 domains = {
     'life': ('teal', 20),
     'earth': ('green', 15),
