@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Lists{% endblock %}
+
+{% block body %}
+    <div>
+        <p>
+            {% for elem in e_list %}
+                {{ elem }}
+                <br>
+            {% endfor %}
+        </p>
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>{% block title %}{% endblock %}</title>
+        <script src="/static/js/brython.js"></script>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	</head>
+	<body onload="brython()">
+        <nav>
+            <a href="/lists">List</a>
+            <a href="/search">Search</a>
+            <a href="/random">Random</a>
+        </nav>
+
+        {% block body %}{% endblock %}
+	</body>
+</html>
