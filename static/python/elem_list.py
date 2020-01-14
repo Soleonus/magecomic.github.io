@@ -1,5 +1,7 @@
 def elem_list():
     """Returns a list of magic/aspect combinations with a count of them"""
+    
+    # 5 Billion people
     bases = ['life', 'earth', 'water', 'fire', 'air',
              'light', 'dark', 'psychic', 'arcane']
 
