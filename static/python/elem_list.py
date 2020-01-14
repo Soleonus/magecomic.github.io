@@ -17,7 +17,7 @@ def elem_list():
     # aspect_num = {
     #     0: 30,
     #     1: 50,
-    #     2: 17
+    #     2: 20
     # }
     aspects = bases.copy()
     gods = 0
